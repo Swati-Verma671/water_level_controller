@@ -44,7 +44,7 @@ The objective of the project was to design a water controller that can:-
   - No LED indicator lights
   - No Warranty or Guarantee
  
- ### Working Principle
+## Working Principle
  Water is the conductor electricity. We use this principle to display messages on microcontroller, which are dipped in water, they detect electricity and subsequently send signal to the microcontroller indicating the level of water present in the tank and conveying whether the motor should be switched on or off.
  
  
