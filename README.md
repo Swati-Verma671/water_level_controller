@@ -9,7 +9,6 @@ The objective of the project was to design a water controller that can:-
  
  ## Existing Solutions
  The types of water level indicators are:-
-  - Water level controls
   - Floatless level indicators
   - Single point level indicators
   - Hanging water level sensors
@@ -34,3 +33,18 @@ The objective of the project was to design a water controller that can:-
   
   ### Swimming water level sensors
   Pool water level control sensors work by using 2 rods that come into contact with the pool waters surface. The energized sensor rods close the water filler valve by making a circuit when both sensors are in contact with the water. When the water level drops below one of the rods it opens up the circuit and turns on the automatic pool filler valve. The auto fill valve will stop filling again once both water level sensors are in contact with the pool water surface again. 
+
+ ### Disadvantages
+ The shortcomings of the water controllers and float switches in the market are:-
+  - Water level controls need to be replaced every 3 years.
+  - The floats in float switches would rust, foul and deteriorate
+  - Electronics are usually required to be built separately
+  - More difficult installation
+  - Most float switches are outdated
+  - No LED indicator lights
+  - No Warranty or Guarantee
+ 
+ ### Working Principle
+ Water is the conductor electricity. We use this principle to display messages on microcontroller, which are dipped in water, they detect electricity and subsequently send signal to the microcontroller indicating the level of water present in the tank and conveying whether the motor should be switched on or off.
+ 
+ 
