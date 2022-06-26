@@ -54,6 +54,18 @@ The objective of the project was to design a water controller that can:-
  - The Collector terminals of the Transistors are connected to VCC and the Emitter terminals are connected to PORT0 terminals (P0.0, P0.1 and P0.2).
  - PORT1 of the microcontroller is connected to the data pins of LCD and the control pins RS, RW and EN of the LCD Display are connected to the P3.6, GND and P3.7 respectively.
  - For demonstration purpose, we have used a simple DC Motor Pump. It is connected to the Relay and the input to the relay is fed from P0.7 through a transistor.
+### Components Required
+ - 8051
+ - 5 x 10kR resistors
+ - 1 x relay
+ - 1 x dc motor pump
+ - 1 x alternator
+ - 2 x 1nF capacitors
+ - 1 x LCD
+ - 1 x 100R resistor
+ - 1 x generic electrolyte capacitor
+ - 1 x generic non-electrolyte capacitor
+ - 5 x buttons
  
  ## Algorithm
  - First configure the controller pins P0.0, P0.1 and P0.2 as inputs and P0.7 as output.
