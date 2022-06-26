@@ -83,5 +83,5 @@ The objective of the project was to design a water controller that can:-
  - 8051 does not have inbuilt ADC
  - 8051 has 11.0592 MHz frequency which is slower compared to other microcontrollers.
 
- ## Working
+ ## Circuit
  ![Video](2.png)
