@@ -71,7 +71,7 @@ org 0000h
 	again:clr A;
 	movc A,@A+dptr;
 	jz skip;
-	mov p1,a;
+	mov p2,a;
 	acall data1;
 	inc dptr;
 	sjmp again;
@@ -83,7 +83,7 @@ org 0000h
 	again1:clr A;
 	movc A,@A+dptr;
 	jz skip1;
-	mov p1,a;
+	mov p2,a;
 	acall data1;
 	inc dptr;
 	sjmp again1;
@@ -95,7 +95,7 @@ org 0000h
 	again2:clr A;
 	movc A,@A+dptr;
 	jz skip2;
-	mov p1,a;
+	mov p2,a;
 	acall data1;
 	inc dptr;
 	sjmp again2;
@@ -106,7 +106,7 @@ org 0000h
 	again3:clr A;
 	movc A,@A+dptr;
 	jz skip3;
-	mov p1,a;
+	mov p2,a;
 	acall data1;
 	inc dptr;
 	sjmp again3;
@@ -117,7 +117,7 @@ org 0000h
 	again4:clr A;
 	movc A,@A+dptr;
 	jz skip4;
-	mov p1,a;
+	mov p2,a;
 	acall data1;
 	inc dptr;
 	sjmp again4;
@@ -128,7 +128,7 @@ org 0000h
 	again5:clr A;
 	movc A,@A+dptr;
 	jz skip5;
-	mov p1,a;
+	mov p2,a;
 	acall data1;
 	inc dptr;
 	sjmp again5;
@@ -139,7 +139,7 @@ org 0000h
 	again6:clr A;
 	movc A,@A+dptr;
 	jz skip6;
-	mov p1,a;
+	mov p2,a;
 	acall data1;
 	inc dptr;
 	sjmp again6;
